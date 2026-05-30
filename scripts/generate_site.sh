@@ -101,7 +101,7 @@ overview_content="$(cat <<EOF
 </section>
 <section class="section"><div class="sh"><h2>Threads to route first</h2><div class="note">Buyer-readable turnover sequence</div></div><div class="cards">${handoff_cards}</div></section>
 <div class="quote"><div class="lbl">Why this matters</div><div class="q">An incident handoff kit is monetizable when the same Bash analysis can become a turnover template pack, a war-room exit checklist, or embedded incident-governance support.</div></div>
-<footer><div>discipline · incident turnover operations</div><div>focus · ownership / evidence / sla drift</div><div>overview snapshot</div></footer>
+<footer><div>discipline · incident turnover operations</div><div>focus · ownership / evidence / sla drift</div><div>overview snapshot</div><div><a href="https://github.com/mizcausevic-dev/">GitHub</a> · <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a> · <a href="https://kineticgain.com/">Kinetic Gain</a></div></footer>
 EOF
 )"
 
