@@ -27,16 +27,16 @@ Bash-native operator surface for SRE, Platform, Security, Support, and Revenue t
 ## Local development
 
 ```powershell
-& 'C:\Program Files\Git\bin\bash.exe' -lc "cd /c/Users/chaus/dev/repos/incident-handoff-runbook-kit && scripts/run_demo.sh"
-& 'C:\Program Files\Git\bin\bash.exe' -lc "cd /c/Users/chaus/dev/repos/incident-handoff-runbook-kit && scripts/generate_site.sh"
+bash scripts/run_demo.sh
+bash scripts/generate_site.sh
 ```
 
 ## Validation
 
 ```powershell
-& 'C:\Program Files\Git\bin\bash.exe' -lc "cd /c/Users/chaus/dev/repos/incident-handoff-runbook-kit && test/runtests.sh"
-& 'C:\Program Files\Git\bin\bash.exe' -lc "cd /c/Users/chaus/dev/repos/incident-handoff-runbook-kit && scripts/smoke_check.sh"
-& 'C:\Program Files\Git\bin\bash.exe' -lc "cd /c/Users/chaus/dev/repos/incident-handoff-runbook-kit && scripts/render_readme_assets.sh"
+bash test/runtests.sh
+bash scripts/smoke_check.sh
+bash scripts/render_readme_assets.sh
 ```
 
 ## Why this matters
