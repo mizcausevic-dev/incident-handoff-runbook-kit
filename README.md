@@ -2,6 +2,12 @@
 
 Bash-native operator surface for SRE, Platform, Security, Support, and Revenue teams reviewing incident owner handoff pressure, evidence completeness, SLA drift, and next-step routing.
 
+## Availability and scope (checked 2026-10-30)
+
+This repository contains a local, synthetic demonstration. The shell script analyzes four hard-coded sample handoffs and generates static pages; it does not process live incidents or customer data. It is not an operational incident-management service.
+
+The configured `runbook.kineticgain.com` domain did not resolve during the 2026-10-30 check. The GitHub Pages URL redirected to that domain, so neither URL provided a working public demo in that check. The repo is under retirement review, but no archive, redirect, or replacement has been approved. The `CNAME` and Pages configuration remain in place while incoming links and route behavior are assessed.
+
 ## What it shows
 
 - real `Shell / Bash` added to the public Kinetic Gain language atlas with a second distinct primitive
@@ -43,7 +49,7 @@ bash scripts/render_readme_assets.sh
 
 Kinetic Gain Embedded tie-back:
 
-This repo proves Kinetic Gain can ship buyer-readable incident turnover and accountability logic directly from Bash. The language-atlas signal is real: analyze handoff pressure, publish operator routes, and keep the same surface usable for runbook kits and embedded incident-response work.
+The local Bash demo analyzes sample handoff pressure and generates operator-readable static routes. Those source capabilities may be reused in runbook kits or embedded incident-response work; the current public demo is unavailable as noted above.
 
 ## Commercial path
 
@@ -54,4 +60,4 @@ This can ladder into incident handoff packs, war-room turnover checklists, evide
 
 ---
 
-Part of the [Kinetic Gain operator portfolio](https://kineticgain.com/) · docs: [suite.kineticgain.com](https://suite.kineticgain.com/) · live: [runbook.kineticgain.com](https://runbook.kineticgain.com/)
+Part of the [Kinetic Gain operator portfolio](https://kineticgain.com/) · docs: [suite.kineticgain.com](https://suite.kineticgain.com/)
